@@ -5,26 +5,15 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | ONNOROKOM_USERNAME
+    | OnnoRokom ApiKey
     |--------------------------------------------------------------------------
     |
-    | Your OnnoRokom Username #
+    | ApiKey that you will get by sms.
     |
     */
 
-    'username' => env('ONNOROKOM_USERNAME', ' '),
-
-    /*
-    |--------------------------------------------------------------------------
-    | OnnoRokom Password
-    |--------------------------------------------------------------------------
-    |
-    | Password that you will get by sms.
-    |
-    */
-
-    'password' => env('ONNOROKOM_PASSWORD', ''),
-
+    'apikey' => env('ONNOROKOM_API_KEY', ''),
+    
     /*
     |--------------------------------------------------------------------------
     | Type
@@ -46,7 +35,8 @@ return [
     | OneToMany - Bulk Sms Method
     |
     */
-    'delivery_type' => env('ONNOROKOM_DELIVERY_TYPE', 'OneToOne'),
+
+    'delivery_type' => env('ONNOROKOM_DELIVERY_TYPE', 'NumberSms'),
 
     /*
     |--------------------------------------------------------------------------
@@ -57,7 +47,7 @@ return [
     |
     */
 
-    'mask_name' => env('ONNOROKOM_MASK_NAME', 'DemoMask'),
+    'mask_name' => env('ONNOROKOM_MASK_NAME', ''),
     /*
     |--------------------------------------------------------------------------
     |Campaign
