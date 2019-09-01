@@ -73,6 +73,6 @@ To use your own settings, publish config.
     onnorokom_sms(['message' => 'some text msg', 'mobile_number' => ['01918....', '0171....']]);
 ```
 
-Based on [OnnoRokom SMS Service](https://www.onnorokomsms.com/bulk-sms-feature/sms-gateway-api-for-developer.php)
+Based on [OnnoRokom SMS Service](https://www.onnorokomsms.com/Features/DeveloperApi)
 
 ^_^
